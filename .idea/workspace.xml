@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f89d75f-60b2-4b21-8aef-98668a6fc00c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Impl/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Impl/ArrayStack1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Impl/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Impl/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ReviewDS/Stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$Message1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$Message1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$TestGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$TestGeneric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$TestGeneric2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$TestGeneric2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/Stack/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/Stack/StackTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Stack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Stack/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,6 +20,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ReviewDS$SolutionTest_isValid.ic" NAME="SolutionTest.isValid Coverage Results" MODIFIED="1569207277276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Stack.LeetCode20.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -47,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StackTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/Stack/StackTest.java">
+      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="361">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,42 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack/MyStack.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Stack/Impl/LinkedStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="354">
+              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding>
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#0#1083#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayStack1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack/Impl/ArrayStack1.java">
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#876#877#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -116,15 +92,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/LeetCode155/MinStack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java" />
         <option value="$PROJECT_DIR$/src/Stack/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/Test/FunctionTest.java" />
         <option value="$PROJECT_DIR$/src/Stack/Stack.java" />
         <option value="$PROJECT_DIR$/src/Stack/MyStack.java" />
         <option value="$PROJECT_DIR$/src/Stack/Impl/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/Stack/Impl/ArrayStack1.java" />
         <option value="$PROJECT_DIR$/src/Test/Stack/StackTest.java" />
         <option value="$PROJECT_DIR$/src/Stack/Impl/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java" />
+        <option value="$PROJECT_DIR$/src/Stack/LeetCode155/MinStack1.java" />
+        <option value="$PROJECT_DIR$/src/Test/FunctionTest.java" />
+        <option value="$PROJECT_DIR$/src/Stack/Impl/Readme" />
+        <option value="$PROJECT_DIR$/src/Stack/LeetCode20/isValied.java" />
+        <option value="$PROJECT_DIR$/src/Stack/LeetCode20/isValid.java" />
+        <option value="$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Stack/LeetCode20/Solution2.java" />
       </list>
     </option>
   </component>
@@ -144,9 +128,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="740" />
+    <option name="x" value="699" />
+    <option name="y" value="2" />
     <option name="width" value="695" />
-    <option name="height" value="735" />
+    <option name="height" value="623" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,6 +142,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,26 +166,19 @@
               <item name="ReviewDS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Stack" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode20" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReviewDS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReviewDS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReviewDS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReviewDS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="Stack" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode155" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -209,7 +188,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ojrecord" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -218,6 +197,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Stack.LeetCode20" />
+      <recent name="Stack.LeetCode155" />
       <recent name="Stack" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -236,28 +217,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest.test2">
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.StackTest" />
-      <module name="ReviewDS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolutionTest.isValid">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FunctionTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReviewDS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="test9" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -268,13 +238,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="FunctionTest.tsst8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinStackTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReviewDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.LeetCode155.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="tsst8" />
+      <option name="PACKAGE_NAME" value="Stack.LeetCode155" />
+      <option name="MAIN_CLASS_NAME" value="Stack.LeetCode155.MinStackTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReviewDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.LeetCode20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Stack.LeetCode20" />
+      <option name="MAIN_CLASS_NAME" value="Stack.LeetCode20.SolutionTest" />
+      <option name="METHOD_NAME" value="isValid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -370,19 +369,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FunctionTest.tsst8" />
-      <item itemvalue="JUnit.FunctionTest.test9" />
-      <item itemvalue="Application.StackTest" />
       <item itemvalue="JUnit.StackTest.test1" />
       <item itemvalue="JUnit.StackTest.test2" />
+      <item itemvalue="JUnit.MinStackTest.test1" />
+      <item itemvalue="JUnit.FunctionTest.test10" />
+      <item itemvalue="JUnit.SolutionTest.isValid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.isValid" />
+        <item itemvalue="JUnit.FunctionTest.test10" />
+        <item itemvalue="JUnit.MinStackTest.test1" />
         <item itemvalue="JUnit.StackTest.test2" />
         <item itemvalue="JUnit.StackTest.test1" />
-        <item itemvalue="Application.StackTest" />
-        <item itemvalue="JUnit.FunctionTest.test9" />
-        <item itemvalue="JUnit.FunctionTest.tsst8" />
       </list>
     </recent_temporary>
   </component>
@@ -399,71 +398,74 @@
       <workItem from="1568711377239" duration="5894000" />
       <workItem from="1568721465737" duration="5656000" />
       <workItem from="1568763370884" duration="8747000" />
-      <workItem from="1568880224981" duration="8665000" />
+      <workItem from="1568880224981" duration="15946000" />
+      <workItem from="1569149660295" duration="8394000" />
+      <workItem from="1569206830468" duration="1650000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctionTest_test7 - 2019.09.18 at 08h 23m 59s.xml">
-      <configuration name="FunctionTest.test7" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.22 at 21h 13m 35s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunctionTest_tsst8 - 2019.09.18 at 09h 46m 57s.xml">
-      <configuration name="FunctionTest.tsst8" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.22 at 21h 13m 58s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunctionTest_test9 - 2019.09.18 at 09h 56m 57s.xml">
-      <configuration name="FunctionTest.test9" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 50m 52s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test1 - 2019.09.19 at 18h 05m 22s.xml">
-      <configuration name="StackTest.test1" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 53m 03s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test1 - 2019.09.19 at 18h 05m 43s.xml">
-      <configuration name="StackTest.test1" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 54m 05s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test1 - 2019.09.19 at 18h 06m 33s.xml">
-      <configuration name="StackTest.test1" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 54m 33s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test1 - 2019.09.19 at 18h 07m 36s.xml">
-      <configuration name="StackTest.test1" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 54m 38s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test1 - 2019.09.19 at 18h 08m 37s.xml">
-      <configuration name="StackTest.test1" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 56m 26s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test2 - 2019.09.19 at 18h 18m 41s.xml">
-      <configuration name="StackTest.test2" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 57m 33s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StackTest_test2 - 2019.09.19 at 18h 20m 03s.xml">
-      <configuration name="StackTest.test2" configurationId="JUnit" />
+    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 59m 44s.xml">
+      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28962000" />
+    <option name="totallyTimeSpent" value="46287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32258064" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32197616" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.505295" side_tool="true" visible="true" weight="0.24190801" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.0062992126" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2793867" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.494705" visible="true" weight="0.24190801" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
+      <window_info anchor="right" id="Database" order="8" weight="0.68661416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" weight="0.44463372" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -480,10 +482,104 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java</url>
+          <line>11</line>
+          <properties class="Stack.LeetCode155.MinStackTest" method="test1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/Readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="101" lean-forward="true" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#1083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -498,9 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,6 +610,8 @@
           <caret line="251" column="24" selection-start-line="251" selection-start-column="24" selection-end-line="251" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5418#5419#0" expanded="true" />
+            <element signature="e#5454#5455#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -535,9 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,6 +646,8 @@
           <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5418#5419#0" expanded="true" />
+            <element signature="e#5454#5455#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -581,6 +675,8 @@
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5418#5419#0" expanded="true" />
+            <element signature="e#5454#5455#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -602,47 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/ArrayStack1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -654,9 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,11 +716,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/ArrayStack1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/FunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="239" column="36" lean-forward="true" selection-start-line="239" selection-start-column="36" selection-end-line="239" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5418#5419#0" expanded="true" />
+            <element signature="e#5454#5455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/Readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="101" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode20/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#1083#0" expanded="true" />
           </folding>
         </state>
       </provider>

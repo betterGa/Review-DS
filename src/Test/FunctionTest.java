@@ -241,12 +241,18 @@ public class FunctionTest {
             System.out.println(field.getType());
         }
 
-    }}
+    }
+
     //运行结果为
     // class java.lang.Object
     //  class java.lang.Object
     //泛型类中的类型参数部分没有指定上限——<T>会被转译成普通的Object类型，而如果指定了上限，就会替换成类型上限。
 
-
+    @Test
+    public void test10()
+    {
+        System.out.println(Integer.MAX_VALUE);
+    }
+}
 
 
