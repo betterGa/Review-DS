@@ -16,7 +16,7 @@ public class LinkedQueue<E> implements MyQueue<E> {
 private Node tail;
 
     //这里的tail和head作为私有属性即可，不需要new
-    
+
         private Node head;
 
     @Override
