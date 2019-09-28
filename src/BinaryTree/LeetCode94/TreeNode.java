@@ -1,4 +1,4 @@
-package BinaryTree.BinSearchTree.LeetCode94;
+package BinaryTree.LeetCode94;
 
 import java.util.ArrayList;
 import java.util.List;

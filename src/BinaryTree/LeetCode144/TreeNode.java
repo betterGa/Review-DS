@@ -1,4 +1,4 @@
-package BinaryTree.BinSearchTree.LeetCode144;
+package BinaryTree.LeetCode144;
 
 //先序遍历,最自然的访问方式，用来输出二叉树。
 import java.util.ArrayList;

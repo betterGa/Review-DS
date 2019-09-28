@@ -1,7 +1,8 @@
 package BinaryTree;
 
 public interface BinTree<E>{
-void add(E e);
+
+
 boolean contains(E e);
 E getNin();
 E getMax();
