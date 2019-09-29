@@ -88,8 +88,7 @@ if(e.compareTo(root.data)<0) add(root.left,e);
 }
 */
 //以上的递归不够彻底，优化：
-    //使add方法返回根节点
-    //传入根节点和要插入的数值，就可以返回插入后的根节点。
+    //使add方法返回E类型
 
     public Node add(E e)
     {
@@ -111,21 +110,48 @@ public Node add(Node root,E e)
 
 }
 
+
+//获取二分搜索树BST的最小值，是沿着左子树往左走到最左为止（不一定是叶子节点。）
     @Override
     public E getNin() {
-        return null;
+        if(root==null) return null;
+        else{Node node=getMin(root);
+        return node.data;}
     }
+
+    public Node getMin(Node node)
+    {if(node.left==null) return node;
+    return getMin(node.left);
+    }
+
+
+//获取二叉搜索树BST的最大值的方法：沿着右子树向右走走到最右。
 
     @Override
     public E getMax() {
-        return null;
+        if(root==null) return null;
+        else { Node maxNode=getMax(root);
+        return maxNode.data;}
     }
+
+
+    public Node getMax(Node node)
+    {if(node.right==null) return node;
+    return getMax(node.right);
+    }
+
+
+
 
     @Override
     public E removeMax() {
         return null;
+
     }
 
+    //返回删除后二叉树的根节点
+    public Node removeMax()
+    {}
     @Override
     public E removeMin() {
         return null;
