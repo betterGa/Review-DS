@@ -10,9 +10,21 @@ private int size;
 private E[]elementData;
 private static final int DEAUFLT_CAPACITY=10;
 
+//该构造方法将任意数组调整成堆
+public heap(E[] arr)
+{
+    elementData=(E[]) new Object[arr.length];
+    for(int i=0;i<arr.length;i++)
+    { elementData[i]=arr[i];}
+        size=elementData.length;
+    //从最后一个非叶子节点开始下沉
+    for(int i=(arr.length-1-1)/2;i>=0;i--)
+    {siftDown(i);}
+
+}
+
 public heap(){
     this(DEAUFLT_CAPACITY,null);
-
 }
 
 public heap(int initCapacity)
@@ -126,6 +138,23 @@ private void siftDown(int index)
         index=j;
         }
     }
+
+    //用新元素替换堆顶元素。返回替换前的堆顶元素,
+    // 方法一：可以先用extrcatMax()把堆顶元素删除，再用add()添加。
+    // 方法二：直接把堆顶元素替换成新元素，然后调用下沉。
+    public E replace(E newValue)
+    {//方法二
+E result=findMax();
+elementData[0]=newValue;
+siftDown(0);
+return result;
+    }
+
+
+//将任意数组变成堆，方法：叶子节点没有子树，就相当于已经是堆了，不需要移动。
+//可以从最后一个非叶子节点开始siftDown
+
+
 
 }
 
