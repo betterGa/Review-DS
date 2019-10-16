@@ -24,7 +24,7 @@ public heap(int initCapacity,Comparator<E> comparator)
 {this.elementData=(E[])new Object[initCapacity];
     this.comparator=comparator; }
 
-    private int getSize()
+    public int getSize()
     {return size;}
 
     public  boolean isEmpty()
@@ -44,6 +44,8 @@ private int compare(E o1,E o2)
 
     private int rightChildIndex(int index)
     {return index*2+2;}
+
+
 
     private int FatherIndex(int index)
     {if(index==0) throw new IllegalArgumentException("not have");
@@ -87,7 +89,49 @@ private int compare(E o1,E o2)
         elementData[indexA]=elementData[indexB];
         elementData[indexB]=temp;
         }
+
+public E findMax()
+{
+    if(isEmpty())
+        throw new IndexOutOfBoundsException("heap is empty.");
+    return elementData[0];
+}
+
+
+        //可以取得大顶堆的最大值,并删除
+    public E extractMax()
+    {
+        E result=findMax();
+        swap(0,size-1);
+        elementData[--size]=null;
+        siftDown(0);
+        return result;
     }
+//将二叉树节点下沉到正确位置
+private void siftDown(int index)
+{
+    while (leftChildIndex(index)<size)
+    {//暂存当前节点左孩子下标
+        int j=leftChildIndex(index);
+        //判断左右孩子哪个大
+        if(j+1<size)
+        //此时有右孩子
+        {
+            if(compare(elementData[j],elementData[j+1])<0)
+                //右孩子大
+                j++;}
+            //j指向右孩子索引下标,此时elementData[j]是左右孩子的最大值，就算不走这个分支
+            if(compare(elementData[index],elementData[j])>0){break;}
+            swap(index,j);
+        index=j;
+        }
+    }
+
+}
+
+
+
+
 
 
 
