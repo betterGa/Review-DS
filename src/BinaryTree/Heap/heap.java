@@ -1,8 +1,12 @@
 package BinaryTree.Heap;
 
+
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-
+import java.util.TreeMap;
+/*跟着录屏敲的
 //基于数组实现的二叉堆
 public class heap<E> {
 private Comparator<E> comparator;
@@ -153,13 +157,236 @@ return result;
 
 //将任意数组变成堆，方法：叶子节点没有子树，就相当于已经是堆了，不需要移动。
 //可以从最后一个非叶子节点开始siftDown
+}
+*/
 
 
+
+//代码自己写一遍
+//堆一般用完全二叉树实现。
+//完全二叉树可以使用数组存储
+
+/*
+public class heap<E>
+{
+    private E[] data;
+    private static int DEFULTSIZE=10;
+    private int size;
+    //
+
+    public heap()
+    {this(DEFULTSIZE);}
+
+    public heap(int initSize)
+    {
+        data=new E[initSize];
+        TreeMap
+    }
+
+
+    //数组存储，如果存储不够需要扩容。
+    public void enlargeCap() {
+        int oldCapcity = size;
+        int newCapcity = oldCapcity + (oldCapcity < 64 ? oldCapcity >> 1 : oldCapcity);
+        //如果数组的长度大于等于容量，说明需要扩容
+        if (oldCapcity <= data.length) {
+            size = newCapcity;
+            Arrays.copyOf(data, size);
+        }
+    }
+
+
+    //sift 元素
+    //删除堆顶并返回堆顶值，即整个二叉树的最大值——根一定是最大的
+    public void deleteMax()
+    {//先找到最后一个非叶子的节点,先时size-1找到最后一个叶子节点，
+        // 再通过节点数-1/2找到它的父亲节点
+int j=(size-1-1)/2;
+int i;
+swap(j,0);
+
+if(j*2+1<size&&j*2+2<size)
+//这时看非叶子节点，如果有左右孩子，需要将值大的子树链给原来的根
+        {  i=getMax(j*2+1,j*2+2);}
+        //如果不是既有左孩子又有右孩子，那一定是只有左孩子了。
+        else {i=j*2+1;}
+data[j]=data[i];
+//相当于删除了原来的根
+size--;
+    //接下来，需要保持堆的特性
+        //从根开始，将它的子树中最大的与之交换
+        //直到换到叶子节点
+        for(int m=0;m<j;m++)
+        { siftDown(m); }
+    }
+
+    //siftDown操作，传入根节点的下标，与它的子树比较，与它的子树的最大值交换
+    public void siftDown(int index)
+    {
+        int max=getMax(index*2+1,index*2+2);
+        swap(max,index);
+    }
+
+
+    //传入两个节点，比较大小
+    public int getMax(int index1,int index2)
+    {
+  if((int)data[index1]>=(int)data[index2]) return index1;
+        else return index2;
+    }
+
+
+
+    //传入数组下标，交换
+    public void swap(int index1,int index2)
+    {E temp=data[index1];
+    data[index1]=data[index2];
+    data[index2]=temp;
+    }
+
+    //向堆中添加元素
+    public void add(E e)
+    {//先扩容
+
+        enlargeCap();
+        //把要添加的元素先加到数组末尾
+        data[size++]=e;
+        //与它的父亲节点比较，不断上浮siftUp，直到根为止
+    }
+
+public siftUp(int index)
+{
 
 }
+}
+*/
+
+
+public class heap<E>
+{private int size=0;
+private static int DEFAULTSIZE=10;
+private Object[] data;
+    private Comparator<E> comparator;
+
+    public heap()
+    {
+        this(DEFAULTSIZE,null);
+    }
+
+    public heap(int initSize)
+    {
+        this(initSize,null);
+    }
+
+    public heap(int initSize,Comparator comparator)
+    {
+        data=new Object[initSize];
+        this.comparator=comparator;
+    }
+
+    private void grow()
+    {
+        int oldSize=size;
+        int newSize=oldSize+(oldSize<64?oldSize>>1:oldSize);
+        if(data.length>=size) Arrays.copyOf(data,newSize);
+    }
+
+    private int Compare(E e1,E e2)
+    {
+        //如果这个堆在构造时并没有传入外部比较器，
+        // 而堆是完全二叉树，应当是具有可比较性的，说明它是具有内部比较器的。
+        //即覆写过CompareTo方法
+        //可以把泛型类强转为Comparable
+        if(comparator==null)
+        {
+           return ((Comparable<E>)e1).compareTo(e2);
+        }
+
+        else return comparator.compare(e1,e2);
+    }
+
+
+    private int getLeftIndex(int index)
+    {return index*2+1;}
+
+    private int getRightIndex(int index)
+    {return index*2+2;}
+
+    private int getFatherIndex(int index)
+    {return (index-1)/2;}
+
+    public int getSize()
+    {return size;}
+
+    //向堆中添加元素
+    public void add(E e)
+    {
+        //可能需要扩容
+
+        //首先把元素加到数组的末尾
+        data[size++]=e;
+        //与父节点比较，如果大于父节点，将它与父节点交换，siftUp上浮操作
+
+        //直到交换到为根或者当前节点已经大于
+        int j=size-1;
+        while (j!=0)
+        { siftUp(j);
+j=getFatherIndex(j);}}
+
+
+    private void siftUp(int index)
+    {//如果当前节点大于父亲节点，需要互换
+
+
+       if(Compare((E)data[index],(E)data[getFatherIndex(index)])>0)
+       {
+           swap(index,getFatherIndex(index));
+       }
 
 
 
+    }
+
+    private void swap(int index1,int index2)
+    {
+        E temp=(E)data[index1];
+        data[index1]=data[index2];
+        data[index2]=temp;
+    }
+
+ //取得并删除堆的最大值，即顶
+public E extractMax()
+{E max=(E)data[0];
+//先将顶与最后一个叶子节点交换值
+    swap(size-1,0);
+    //注意！！！这里因为把堆顶扔到了数组的最后，
+    // 如果此时数的叶子是左叶子，就会与堆顶构成一对子树，然后根会和这对子树的最大值互换......
+data[size-1]=0;
+    int i=0;
+//让顶下沉，直到它所在的根可以看成堆或者沉到叶子节点
+    //连左孩子都没有的一定是叶子节点
+    while (getLeftIndex(i)<=size) {
+       i=siftDown(i); }
+    size=size-1;
+return max;
+}
+
+private int siftDown(int index)
+{
+    if(Compare((E)data[getMax(getLeftIndex(index),getRightIndex(index))],(E)data[index])>0)
+    { int temp=getMax(getLeftIndex(index),getRightIndex(index));
+        swap(getMax(getLeftIndex(index),getRightIndex(index)),index);
+    return temp;}
+    else return size+1;
+}
+
+private int getMax(int index1,int index2)
+{
+    if(Compare((E)data[index1],(E)data[index2])>0)
+    {return index1;}
+    else return index2;
+}
+}
 
 
 

@@ -5,11 +5,11 @@ package BinaryTree.Heap;
 public class heapSort {
     public void heapSort1(Integer[] arr)
     {//将数组调整成堆
-        heap<Integer>heap1=new heap<>(arr);
+       // heap<Integer>heap1=new heap<Integer>(arr);
 
         //接下来，从最后一个位置开始
-        for(int i=arr.length-1;i>=0;i--)
-        {arr[i]=heap1.extractMax(); }
+       // for(int i=arr.length-1;i>=0;i--)
+        //{arr[i]=heap1.extractMax(); }
 
 
     }
