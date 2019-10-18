@@ -16,7 +16,15 @@ Node right;
     public Node(E e)
     {data=e;}}
 
-private Node root;
+    public Node getRoot() {
+        return root;
+    }
+
+    public void setRoot(Node root) {
+        this.root = root;
+    }
+
+    private Node root;
 private int size;
 
 /*
@@ -93,6 +101,7 @@ if(e.compareTo(root.data)<0) add(root.left,e);
     public Node add(E e)
     {
        root=add(root,e);
+       size++;
        return root;
     }
 
@@ -113,7 +122,7 @@ public Node add(Node root,E e)
 
 //获取二分搜索树BST的最小值，是沿着左子树往左走到最左为止（不一定是叶子节点。）
     @Override
-    public E getNin() {
+    public E getMin() {
         if(root==null) return null;
         else{Node node=getMin(root);
         return node.data;}
@@ -134,28 +143,42 @@ public Node add(Node root,E e)
         return maxNode.data;}
     }
 
+    @Override
+    public E removeMax() {
+        return null;
+    }
+
+    @Override
+    public E removeMin() {
+        E save=getMin();
+        root=removeMinNode(root);
+        return save;
+    }
 
     public Node getMax(Node node)
     {if(node.right==null) return node;
     return getMax(node.right);
     }
 
-
-
-
-    @Override
-    public E removeMax() {
-        return null;
-
+    //删除传入二叉树的最小值节点,返回删除后二叉树的根节点
+    public Node removeMinNode(Node root)
+    {  if (root.left == null)
+    { Node rightNode = root.right;
+        root.right = null;
+        size--;
+        return rightNode; }
+    root.left=removeMinNode(root.left);
+    return root;
+    /*要用递归：
+    Node rightNode=root.left.right;
+    root.left.right=null;
+    root.left=rightNode;
+    size--;
+    return root;*/
     }
 
-    //返回删除后二叉树的根节点
-    public Node removeMax()
-    {}
-    @Override
-    public E removeMin() {
-        return null;
-    }
+
+
 
     @Override
     public boolean remove(E e) {
@@ -164,7 +187,7 @@ public Node add(Node root,E e)
 
     @Override
     public int getSize() {
-        return 0;
+        return size;
     }
 
     @Override
