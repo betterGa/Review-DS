@@ -264,7 +264,7 @@ public siftUp(int index)
 
 public class heap<E>
 {private int size=0;
-private static int DEFAULTSIZE=10;
+private static int DEFAULTSIZE=6;
 private Object[] data;
     private Comparator<E> comparator;
 
@@ -286,9 +286,9 @@ private Object[] data;
 
     private void grow()
     {
-        int oldSize=size;
+        int oldSize=data.length;
         int newSize=oldSize+(oldSize<64?oldSize>>1:oldSize);
-        if(data.length>=size) Arrays.copyOf(data,newSize);
+        data=Arrays.copyOf(data,newSize);
     }
 
     private int Compare(E e1,E e2)
@@ -322,7 +322,7 @@ private Object[] data;
     public void add(E e)
     {
         //可能需要扩容
-
+grow();
         //首先把元素加到数组的末尾
         data[size++]=e;
         //与父节点比较，如果大于父节点，将它与父节点交换，siftUp上浮操作
@@ -342,9 +342,6 @@ j=getFatherIndex(j);}}
        {
            swap(index,getFatherIndex(index));
        }
-
-
-
     }
 
     private void swap(int index1,int index2)
@@ -382,11 +379,87 @@ private int siftDown(int index)
 
 private int getMax(int index1,int index2)
 {
+
+    //注意！！！   需要考虑如果传进来的值为null怎么办
+    //堆是完全二叉树，只可能出现右子树为null的情况
+    if(data[index2]==null)
+        return index1;
+
+
     if(Compare((E)data[index1],(E)data[index2])>0)
     {return index1;}
     else return index2;
 }
+
+
+//将堆顶元素替换为新元素
+    //方法一：
+    //直接将新元素赋给data[0]，然后堆顶siftDown
+public void replace1(E e)
+{ data[0] = e;
+    int i = 0;
+    //直到换到叶子节点为止
+    while (getLeftIndex(i) <= size) {
+
+        int max=getMax(getLeftIndex(i),getRightIndex(i));
+        if(Compare((E)data[i],(E)data[max])>0) break;
+        if (max== getLeftIndex(i))
+            i = getLeftIndex(i);
+        else i = getRightIndex(i);
+        siftDown(i); }
 }
+
+//方法二：先调用extractMax删除堆顶元素，再将替换的元素加到末尾，使用siftUp
+    //(远比方法一麻烦，不想写)
+
+
+
+    //将任意数组调整成堆
+    //方法一，挨个add（）
+    public Object[] heapify(Object[] disordlydata)
+    {
+       for(int i=0;i<disordlydata.length;i++)
+       { add((E)disordlydata[i]); }
+       return data;
+    }
+
+
+
+
+    public Object[] heapify2(Object[] disorderly)
+    {/*System.out.print(data.length);
+    while (data.length<=disorderly.length)
+    {grow();}*/
+        data=new Object[disorderly.length+1];
+        for(int i=0;i<disorderly.length;i++)
+        { data[i]=disorderly[i];}
+
+       //方法二：从最后一个非叶子开始，siftDown保证它为根的二叉树为堆
+        //由于叶子节点已经是天然的堆了。
+        //这样每次只对三个节点操作，直到根为止
+        //如果要采用siftUp,一边上浮着，可能还会与叶子节点交换，就又要下沉，复杂度太高
+        int lastNotL=getFatherIndex(data.length-1);
+        if(getRightIndex(lastNotL)==disorderly.length)
+        { data[disorderly.length]=null; }
+        int i=lastNotL;
+        System.out.println(":i"+i);
+        while (i>0)
+        {siftDown(i);
+       // i=getFatherIndex(i);
+            //错了，不是找父亲节点，是每一个节点，直到根
+        i=i-1;
+        }
+        siftDown(0);
+        return data;
+    }
+}
+
+
+
+
+
+
+
 
 
 
