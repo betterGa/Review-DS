@@ -263,7 +263,7 @@ public siftUp(int index)
 
 
 public class heap<E>
-{private int size=0;
+{private int size;
 private static int DEFAULTSIZE=6;
 private Object[] data;
     private Comparator<E> comparator;
@@ -284,6 +284,25 @@ private Object[] data;
         this.comparator=comparator;
     }
 
+    //将任意数组变成堆
+    //调用add方法
+    public heap(Object[] disorderly) {
+       data=disorderly;
+    heapify(disorderly);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     private void grow()
     {
         int oldSize=data.length;
@@ -291,7 +310,7 @@ private Object[] data;
         data=Arrays.copyOf(data,newSize);
     }
 
-    private int Compare(E e1,E e2)
+    public int Compare(E e1,E e2)
     {
         //如果这个堆在构造时并没有传入外部比较器，
         // 而堆是完全二叉树，应当是具有可比较性的，说明它是具有内部比较器的。
@@ -425,14 +444,17 @@ public void replace1(E e)
 
 
 
-
     public Object[] heapify2(Object[] disorderly)
     {/*System.out.print(data.length);
     while (data.length<=disorderly.length)
     {grow();}*/
-        data=new Object[disorderly.length+1];
+            data=new Object[disorderly.length+1];
         for(int i=0;i<disorderly.length;i++)
         { data[i]=disorderly[i];}
+
+
+        //错错错了。
+
 
        //方法二：从最后一个非叶子开始，siftDown保证它为根的二叉树为堆
         //由于叶子节点已经是天然的堆了。
@@ -442,7 +464,7 @@ public void replace1(E e)
         if(getRightIndex(lastNotL)==disorderly.length)
         { data[disorderly.length]=null; }
         int i=lastNotL;
-        System.out.println(":i"+i);
+      //  System.out.println(":i"+i);
         while (i>0)
         {siftDown(i);
        // i=getFatherIndex(i);
@@ -462,7 +484,7 @@ public void replace1(E e)
 
 
 
-
+ 
 
 
 
