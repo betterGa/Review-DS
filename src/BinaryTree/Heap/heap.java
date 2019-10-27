@@ -262,113 +262,116 @@ public siftUp(int index)
 */
 
 
-public class heap<E>
-{private int size;
-private static int DEFAULTSIZE=6;
-private Object[] data;
+public class heap<E> {
+    private int size;
+    private static int DEFAULTSIZE = 6;
+    private Object[] data;
     private Comparator<E> comparator;
 
-    public heap()
-    {
-        this(DEFAULTSIZE,null);
+    public Object[] getData() {
+        return data;
     }
 
-    public heap(int initSize)
-    {
-        this(initSize,null);
+    public heap() {
+        this(DEFAULTSIZE, null);
     }
 
-    public heap(int initSize,Comparator comparator)
-    {
-        data=new Object[initSize];
-        this.comparator=comparator;
+    public heap(int initSize) {
+        this(initSize, null);
+    }
+
+    public heap(int initSize, Comparator comparator) {
+        data = new Object[initSize];
+        this.comparator = comparator;
     }
 
     //将任意数组变成堆
     //调用add方法
     public heap(Object[] disorderly) {
-       data=disorderly;
-    heapify(disorderly);
+        data = disorderly;
+        heapify(disorderly);
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-    private void grow()
-    {
-        int oldSize=data.length;
-        int newSize=oldSize+(oldSize<64?oldSize>>1:oldSize);
-        data=Arrays.copyOf(data,newSize);
+    private void grow() {
+        int oldSize = data.length;
+        int newSize = oldSize + (oldSize < 64 ? oldSize >> 1 : oldSize);
+        data = Arrays.copyOf(data, newSize);
     }
 
-    public int Compare(E e1,E e2)
-    {
+    public int Compare(E e1, E e2) {
         //如果这个堆在构造时并没有传入外部比较器，
         // 而堆是完全二叉树，应当是具有可比较性的，说明它是具有内部比较器的。
         //即覆写过CompareTo方法
         //可以把泛型类强转为Comparable
-        if(comparator==null)
-        {
-           return ((Comparable<E>)e1).compareTo(e2);
-        }
-
-        else return comparator.compare(e1,e2);
+        if (comparator == null) {
+            return ((Comparable<E>) e1).compareTo(e2);
+        } else return comparator.compare(e1, e2);
     }
 
 
-    private int getLeftIndex(int index)
-    {return index*2+1;}
+    private int getLeftIndex(int index) {
+        return index * 2 + 1;
+    }
 
-    private int getRightIndex(int index)
-    {return index*2+2;}
+    private int getRightIndex(int index) {
+        return index * 2 + 2;
+    }
 
-    private int getFatherIndex(int index)
-    {return (index-1)/2;}
+    private int getFatherIndex(int index) {
+        return (index - 1) / 2;
+    }
 
-    public int getSize()
-    {return size;}
+    public int getSize() {
+        return size;
+    }
 
     //向堆中添加元素
-    public void add(E e)
-    {
+    public void add(E e) {
         //可能需要扩容
-grow();
+        grow();
         //首先把元素加到数组的末尾
-        data[size++]=e;
+        data[size++] = e;
         //与父节点比较，如果大于父节点，将它与父节点交换，siftUp上浮操作
 
         //直到交换到为根或者当前节点已经大于
-        int j=size-1;
-        while (j!=0)
-        { siftUp(j);
-j=getFatherIndex(j);}}
-
-
-    private void siftUp(int index)
-    {//如果当前节点大于父亲节点，需要互换
-
-
-       if(Compare((E)data[index],(E)data[getFatherIndex(index)])>0)
-       {
-           swap(index,getFatherIndex(index));
-       }
+        int j = size - 1;
+        while (j != 0) {
+            siftUp(j);
+            j = getFatherIndex(j);
+        }
     }
 
-    private void swap(int index1,int index2)
-    {
-        E temp=(E)data[index1];
-        data[index1]=data[index2];
-        data[index2]=temp;
+
+    private void siftUp(int index) {//如果当前节点大于父亲节点，需要互换
+
+
+        if (Compare((E) data[index], (E) data[getFatherIndex(index)]) > 0) {
+            swap(index, getFatherIndex(index));
+        }
     }
+
+    private void swap(int index1, int index2) {
+        E temp = (E) data[index1];
+        data[index1] = data[index2];
+        data[index2] = temp;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  //取得并删除堆的最大值，即顶
 public E extractMax()
@@ -378,23 +381,38 @@ public E extractMax()
     //注意！！！这里因为把堆顶扔到了数组的最后，
     // 如果此时数的叶子是左叶子，就会与堆顶构成一对子树，然后根会和这对子树的最大值互换......
 data[size-1]=0;
-    int i=0;
+
 //让顶下沉，直到它所在的根可以看成堆或者沉到叶子节点
     //连左孩子都没有的一定是叶子节点
-    while (getLeftIndex(i)<=size) {
-       i=siftDown(i); }
-    size=size-1;
+    int LastNLeaf=getFatherIndex(data.length-1);
+   for(int i=0;i<=LastNLeaf  ;i++)
+       siftDown(i);
 return max;
 }
 
-private int siftDown(int index)
-{
-    if(Compare((E)data[getMax(getLeftIndex(index),getRightIndex(index))],(E)data[index])>0)
+
+//将当前节点下沉到正确位置
+private void siftDown(int index) {
+    //10.21   修改：
+    //int temp=size+1;
+    while (getLeftIndex(index) < data.length) {
+       if(Compare((E) data[getMax(getLeftIndex(index), getRightIndex(index))], (E) data[index]) > 0)
+        { int change=getMax(getLeftIndex(index),getRightIndex(index));
+           // temp = getMax(getLeftIndex(index), getRightIndex(index));
+            swap(getMax(getLeftIndex(index), getRightIndex(index)), index);
+            index=change;}
+            else break;
+    }
+    }
+
+
+
+    /*if(Compare((E)data[getMax(getLeftIndex(index),getRightIndex(index))],(E)data[index])>0)
     { int temp=getMax(getLeftIndex(index),getRightIndex(index));
         swap(getMax(getLeftIndex(index),getRightIndex(index)),index);
     return temp;}
-    else return size+1;
-}
+    else return size+1;*/
+
 
 private int getMax(int index1,int index2)
 {
@@ -403,7 +421,6 @@ private int getMax(int index1,int index2)
     //堆是完全二叉树，只可能出现右子树为null的情况
     if(data[index2]==null)
         return index1;
-
 
     if(Compare((E)data[index1],(E)data[index2])>0)
     {return index1;}
@@ -442,16 +459,14 @@ public void replace1(E e)
        return data;
     }
 
-
-
     public Object[] heapify2(Object[] disorderly)
     {/*System.out.print(data.length);
     while (data.length<=disorderly.length)
     {grow();}*/
-            data=new Object[disorderly.length+1];
+           /* data=new Object[disorderly.length+1];
         for(int i=0;i<disorderly.length;i++)
         { data[i]=disorderly[i];}
-
+*/
 
         //错错错了。
 
@@ -460,7 +475,7 @@ public void replace1(E e)
         //由于叶子节点已经是天然的堆了。
         //这样每次只对三个节点操作，直到根为止
         //如果要采用siftUp,一边上浮着，可能还会与叶子节点交换，就又要下沉，复杂度太高
-        int lastNotL=getFatherIndex(data.length-1);
+       /* int lastNotL=getFatherIndex(data.length-1);
         if(getRightIndex(lastNotL)==disorderly.length)
         { data[disorderly.length]=null; }
         int i=lastNotL;
@@ -471,7 +486,16 @@ public void replace1(E e)
             //错了，不是找父亲节点，是每一个节点，直到根
         i=i-1;
         }
-        siftDown(0);
+        siftDown(0);*/
+
+       //改：10.21
+        data=new Object[disorderly.length+1];
+        for(int i=0;i<disorderly.length;i++)
+            data[i]=disorderly[i];
+
+        int lastNLeaf=getFatherIndex(data.length-1);
+       for(int i=lastNLeaf;i>=0;i--)
+       {siftDown(i);}
         return data;
     }
 }

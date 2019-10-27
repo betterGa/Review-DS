@@ -61,7 +61,7 @@ public class heapSort
         { orderly[i]=heap4.extractMax();}
         return orderly; }
 
-        //方法二：原地堆排序。
+        //方法二：原地堆排序。Okay
     //首先，将数组变成堆，不使用heap类中的data数组，在原数组基础上交换元素，
     // 先原地变成堆
     //然后每次将堆顶——即最大值和数组最后的元素交换
@@ -73,13 +73,18 @@ public class heapSort
     {//最后一个非叶子节点
         int i=getFather(disordly.length-1);
         for(int j=i;j>=0;j--)
-        {siftDown2(disordly,j);}
+        {siftDown(disordly,j);}
 return disordly;
     }
 
-    private void siftDown2(int[] data,int index)
-    {
-if(data[index]<data[getMaxChild(data,index)])  swap2(data,index,getMaxChild(data,index));
+    private void siftDown(int[]data,int index) {
+        while (getLeft(index) < data.length) {
+            if(data[getMaxChild(data,index)]>data[index])
+            { int change=getMaxChild(data,index);
+                swap2(data,getMaxChild(data,index), index);
+                index=change;}
+            else break;
+        }
     }
 
     private void swap2(int[]data,int index1,int index2)
