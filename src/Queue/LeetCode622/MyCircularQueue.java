@@ -20,7 +20,8 @@ queue=new int[k+1];
         return true;}
 
 
-    /** Delete an element from the circular queue. Return true if the operation is successful. */
+
+        /** Delete an element from the circular queue. Return true if the operation is successful. */
     public boolean deQueue() {
 if(isEmpty()) {System.err.println("栈已空，无法出栈");return false;}
     head=(head+1)%queue.length;
