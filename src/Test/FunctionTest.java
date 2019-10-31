@@ -4,7 +4,10 @@ import org.junit.Test;
 
 import java.io.File;
 import java.lang.reflect.Field;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 public class FunctionTest {
 
@@ -249,10 +252,48 @@ public class FunctionTest {
     //泛型类中的类型参数部分没有指定上限——<T>会被转译成普通的Object类型，而如果指定了上限，就会替换成类型上限。
 
     @Test
-    public void test10()
-    {
+    public void test10() {
         System.out.println(Integer.MAX_VALUE);
     }
+
+    @Test
+    public void test11() {
+        Integer x = 1;
+        Integer y = 1;
+        System.out.println(y.compareTo(x));
+    }
+
+    @Test
+    public void test12()
+    {
+        PriorityQueue priorityQueue=new PriorityQueue();
+priorityQueue.add(41);
+priorityQueue.add(58);
+priorityQueue.add(50);
+        priorityQueue.add(60);
+        priorityQueue.add(53);
+        priorityQueue.add(42);
+        priorityQueue.add(59);
+        priorityQueue.add(63);
+        priorityQueue.add(90);
+        priorityQueue.add(3);
+        priorityQueue.add(1);
+Object data[]=priorityQueue.toArray();
+for(Object o:data)
+{System.out.println(o);}
+
+    }
+@Test
+    public void test13()
+{
+    Map<Integer,Integer>m=new HashMap<>();
+    m.put(1,2);
+    m.put(3,4);
+    System.out.print(m.get(2));
+
 }
+
+}
+
 
 

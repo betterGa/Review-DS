@@ -1,11 +1,8 @@
-package BinaryTree.BinSearchTree.LeetCode144;
+package BinaryTree.LeetCode144;
 
 import org.junit.Test;
 
 import java.util.List;
-import java.util.TimerTask;
-
-import static org.junit.Assert.*;
 
 public class TreeNodeTest {
 Solution solution=new Solution();
