@@ -5,13 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f89d75f-60b2-4b21-8aef-98668a6fc00c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Stack/Impl/Readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReviewDS/Stack/LeetCode20/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReviewDS/Stack/LeetCode20/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$Message1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$Message1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$MessageImpk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$MessageImpk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$MessageImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$MessageImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$TestGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$TestGeneric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$TestGeneric2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest$TestGeneric2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ReviewDS/FunctionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/LeetCode236/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/LeetCode236/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/LeetCode450/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/LeetCode450/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/Readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BSTandBLL/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BSTandBLL/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BinSearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BinSearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/Heap/LeetCode347/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/Heap/LeetCode347/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/Heap/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/Heap/PriorityQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/Heap/heapSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/Heap/heapSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/HeapTest/heapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/HeapTest/heapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode110/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode110/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode144/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode144/TreeNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode236/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode236/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode606/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode606/TreeNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Queue/Impl/LinkedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Queue/Impl/LinkedQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Queue/LeetCode622/MyCircularQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Queue/LeetCode622/MyCircularQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Stack/LeetCode225/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Stack/LeetCode225/MyStackTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinSearchTree/BSTandBLL/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="158">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,23 +75,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java">
+      <file leaf-file-name="heapSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Heap/heapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="183">
+              <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTree/Heap/heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="461" column="34" lean-forward="true" selection-start-line="461" selection-start-column="34" selection-end-line="461" selection-end-column="34" />
               <folding>
-                <element signature="e#0#1083#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#6605#6606#0" expanded="true" />
+                <element signature="e#6641#6642#0" expanded="true" />
+                <element signature="e#6685#6686#0" expanded="true" />
+                <element signature="e#6721#6722#0" expanded="true" />
+                <element signature="e#6766#6767#0" expanded="true" />
+                <element signature="e#6804#6805#0" expanded="true" />
+                <element signature="e#6832#6833#0" expanded="true" />
+                <element signature="e#6859#6860#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java">
+      <file leaf-file-name="heapSortTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/Heap/heapSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="318">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -80,10 +118,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Com</find>
+      <find>deQue</find>
+      <find>poll</find>
+      <find>offer</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\For Git\ReviewDS\src\BinaryTree</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,24 +141,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode155/MinStack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/MyStack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/Impl/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/Impl/ArrayStack1.java" />
-        <option value="$PROJECT_DIR$/src/Test/Stack/StackTest.java" />
-        <option value="$PROJECT_DIR$/src/Stack/Impl/LinkedStack.java" />
-        <option value="$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java" />
         <option value="$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java" />
         <option value="$PROJECT_DIR$/src/Stack/LeetCode155/MinStack1.java" />
-        <option value="$PROJECT_DIR$/src/Test/FunctionTest.java" />
         <option value="$PROJECT_DIR$/src/Stack/Impl/Readme" />
         <option value="$PROJECT_DIR$/src/Stack/LeetCode20/isValied.java" />
         <option value="$PROJECT_DIR$/src/Stack/LeetCode20/isValid.java" />
         <option value="$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java" />
         <option value="$PROJECT_DIR$/src/Stack/LeetCode20/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Queue/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/Queue/Impl/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/Test/Queue/Impl/LinkedQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/Queue/Impl/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/Queue/Readme" />
+        <option value="$PROJECT_DIR$/src/Test/Queue/LeetCode622/MyCircularQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/Queue/LeetCode622/MyCircularQueue.java" />
+        <option value="$PROJECT_DIR$/src/Test/Stack/LeetCode225/MyStackTest.java" />
+        <option value="$PROJECT_DIR$/src/Stack/LeetCode225/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/Queue/LeetCode232/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinSearchTree/LeetCode144/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/LeetCode144/TreeNodeTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode606/TreeNodeTest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode606/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinSearchTree/LeetCode144/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinSearchTree/LeetCode94/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode94/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode100/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode572/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode104/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinTree.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BinSearchTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinSearchTree/BinSearchTree.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode450/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/HeapTest/heapTest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Heap/heapSort.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/Heap/PriorityQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Heap/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/Test/FunctionTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/Heap/LeetCode347/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Heap/LeetCode347/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode110/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode110/Solution.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode101/Solution.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode102/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode236/Solution.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinSearchTree/BSTandBLL/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/LeetCode236/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/LeetCode236/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BSTandBLL/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinSearchTree/BSTandBLL/Solution.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/Heap/heap.java" />
+        <option value="$PROJECT_DIR$/src/Test/BinaryTree/Heap/heapSortTest.java" />
       </list>
     </option>
   </component>
@@ -127,10 +210,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="699" />
-    <option name="y" value="2" />
-    <option name="width" value="695" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="832" />
     <option name="height" value="623" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -142,7 +225,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,27 +241,42 @@
               <item name="ReviewDS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReviewDS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReviewDS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReviewDS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode20" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Heap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReviewDS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReviewDS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode155" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReviewDS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReviewDS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReviewDS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReviewDS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Heap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +285,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ojrecord" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -197,9 +294,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Stack.LeetCode20" />
-      <recent name="Stack.LeetCode155" />
-      <recent name="Stack" />
+      <recent name="BinaryTree.BinSearchTree.BSTandBLL" />
+      <recent name="BinaryTree.LeetCode236" />
+      <recent name="BinaryTree.LeetCode110" />
+      <recent name="BinaryTree.Heap.LeetCode347" />
+      <recent name="BinaryTree.Heap" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="BinaryTree" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -217,17 +319,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.isValid">
+  <component name="RunManager" selected="JUnit.heapSortTest.heapSort1Test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FunctionTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.LRootR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReviewDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.BinSearchTree.BSTandBLL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
-      <option name="METHOD_NAME" value="test10" />
+      <option name="PACKAGE_NAME" value="BinaryTree.BinSearchTree.BSTandBLL" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.BinSearchTree.BSTandBLL.SolutionTest" />
+      <option name="METHOD_NAME" value="LRootR" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -238,19 +346,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MinStackTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.getFather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReviewDS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.LeetCode155.*" />
+          <option name="PATTERN" value="BinaryTree.LeetCode236.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Stack.LeetCode155" />
-      <option name="MAIN_CLASS_NAME" value="Stack.LeetCode155.MinStackTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="BinaryTree.LeetCode236" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.LeetCode236.SolutionTest" />
+      <option name="METHOD_NAME" value="getFather" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -261,19 +369,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.isBalanced" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReviewDS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.LeetCode20.*" />
+          <option name="PATTERN" value="BinaryTree.LeetCode110.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Stack.LeetCode20" />
-      <option name="MAIN_CLASS_NAME" value="Stack.LeetCode20.SolutionTest" />
-      <option name="METHOD_NAME" value="isValid" />
+      <option name="PACKAGE_NAME" value="BinaryTree.LeetCode110" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.LeetCode110.SolutionTest" />
+      <option name="METHOD_NAME" value="isBalanced" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -284,42 +392,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StackTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.topKFrequent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReviewDS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="BinaryTree.Heap.LeetCode347.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Stack" />
-      <option name="MAIN_CLASS_NAME" value="Stack.StackTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StackTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ReviewDS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Stack" />
-      <option name="MAIN_CLASS_NAME" value="Stack.StackTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="BinaryTree.Heap.LeetCode347" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Heap.LeetCode347.SolutionTest" />
+      <option name="METHOD_NAME" value="topKFrequent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -337,6 +422,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="heapSortTest.heapSort1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReviewDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="BinaryTree.Heap" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.Heap.heapSortTest" />
+      <option name="METHOD_NAME" value="heapSort1Test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -369,19 +477,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StackTest.test1" />
-      <item itemvalue="JUnit.StackTest.test2" />
-      <item itemvalue="JUnit.MinStackTest.test1" />
-      <item itemvalue="JUnit.FunctionTest.test10" />
-      <item itemvalue="JUnit.SolutionTest.isValid" />
+      <item itemvalue="JUnit.SolutionTest.topKFrequent" />
+      <item itemvalue="JUnit.SolutionTest.isBalanced" />
+      <item itemvalue="JUnit.SolutionTest.getFather" />
+      <item itemvalue="JUnit.SolutionTest.LRootR" />
+      <item itemvalue="JUnit.heapSortTest.heapSort1Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.isValid" />
-        <item itemvalue="JUnit.FunctionTest.test10" />
-        <item itemvalue="JUnit.MinStackTest.test1" />
-        <item itemvalue="JUnit.StackTest.test2" />
-        <item itemvalue="JUnit.StackTest.test1" />
+        <item itemvalue="JUnit.heapSortTest.heapSort1Test" />
+        <item itemvalue="JUnit.SolutionTest.LRootR" />
+        <item itemvalue="JUnit.SolutionTest.getFather" />
+        <item itemvalue="JUnit.SolutionTest.isBalanced" />
+        <item itemvalue="JUnit.SolutionTest.topKFrequent" />
       </list>
     </recent_temporary>
   </component>
@@ -400,72 +508,100 @@
       <workItem from="1568763370884" duration="8747000" />
       <workItem from="1568880224981" duration="15946000" />
       <workItem from="1569149660295" duration="8394000" />
-      <workItem from="1569206830468" duration="1650000" />
+      <workItem from="1569206830468" duration="18458000" />
+      <workItem from="1569368072258" duration="16545000" />
+      <workItem from="1569625516958" duration="2323000" />
+      <workItem from="1569629297103" duration="25541000" />
+      <workItem from="1569745329466" duration="607000" />
+      <workItem from="1571101822194" duration="11006000" />
+      <workItem from="1571138581875" duration="6124000" />
+      <workItem from="1571185321541" duration="7184000" />
+      <workItem from="1571206072463" duration="14747000" />
+      <workItem from="1571295158978" duration="13825000" />
+      <workItem from="1571386104868" duration="12299000" />
+      <workItem from="1571442699627" duration="11221000" />
+      <workItem from="1571487262820" duration="1515000" />
+      <workItem from="1571631001017" duration="22855000" />
+      <workItem from="1571814532628" duration="53000" />
+      <workItem from="1571814668404" duration="11564000" />
+      <workItem from="1571904085115" duration="8411000" />
+      <workItem from="1571990921431" duration="5471000" />
+      <workItem from="1572003326210" duration="5917000" />
+      <workItem from="1572049338742" duration="5490000" />
+      <workItem from="1572508988942" duration="4066000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_isValid - 2019.09.22 at 21h 13m 35s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="SolutionTest_LRootR - 2019.10.26 at 10h 41m 16s.xml">
+      <configuration name="SolutionTest.LRootR" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.22 at 21h 13m 58s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="SolutionTest_LRootR - 2019.10.26 at 10h 41m 30s.xml">
+      <configuration name="SolutionTest.LRootR" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 50m 52s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="SolutionTest_LRootR - 2019.10.26 at 10h 54m 17s.xml">
+      <configuration name="SolutionTest.LRootR" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 53m 03s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="SolutionTest_LRootR - 2019.10.26 at 10h 56m 49s.xml">
+      <configuration name="SolutionTest.LRootR" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 54m 05s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="SolutionTest_LRootR - 2019.10.26 at 10h 58m 33s.xml">
+      <configuration name="SolutionTest.LRootR" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 54m 33s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="SolutionTest_LRootR - 2019.10.26 at 11h 00m 07s.xml">
+      <configuration name="SolutionTest.LRootR" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 54m 38s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="SolutionTest_LRootR - 2019.10.26 at 11h 01m 44s.xml">
+      <configuration name="SolutionTest.LRootR" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 56m 26s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="SolutionTest_LRootR - 2019.10.26 at 11h 04m 49s.xml">
+      <configuration name="SolutionTest.LRootR" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 57m 33s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="heapSortTest_heapSort1Test - 2019.10.31 at 19h 57m 27s.xml">
+      <configuration name="heapSortTest.heapSort1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_isValid - 2019.09.23 at 10h 59m 44s.xml">
-      <configuration name="SolutionTest.isValid" configurationId="JUnit" />
+    <history-entry file="heapSortTest_heapSort1Test - 2019.10.31 at 19h 57m 41s.xml">
+      <configuration name="heapSortTest.heapSort1Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46287000" />
+    <option name="totallyTimeSpent" value="249859000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32197616" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32879046" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4969743" weight="0.54003406" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.505295" side_tool="true" visible="true" weight="0.24190801" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.0062992126" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5098336" side_tool="true" weight="0.44804087" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.12481089" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.494705" visible="true" weight="0.24190801" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
-      <window_info anchor="right" id="Database" order="8" weight="0.68661416" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49016643" weight="0.10732538" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.5587734" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" weight="0.32879046" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3524962" />
+      <window_info anchor="right" id="Database" order="7" weight="0.68661416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" weight="0.44463372" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49621785" weight="0.318569" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -473,9 +609,66 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="7" weight="0.68661416" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.5587734" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33509833" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49319214" visible="true" weight="0.39182281" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969743" weight="0.44463372" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50680786" side_tool="true" weight="0.2197615" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49848714" weight="0.37308347" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.12481089" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -497,315 +690,434 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Stack/LeetCode225/MyStackTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/BinaryTree/LeetCode606/TreeNodeTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BinSearchTreeTest.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTree/Heap/heap.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/BinaryTree/HeapTest/heapTest.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/BinaryTree/Heap/PriorityQueueTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/BinaryTree/Heap/LeetCode347/SolutionTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/BinaryTree/LeetCode110/SolutionTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BSTandBLL/SolutionTest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="76" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this" />
+        <watch expression="((HashMap)keyAndFreq).entrySet().toArray()[2]" custom="java.util.HashMap" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode94/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="143">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/LeetCode606/TreeNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java">
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode606/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="133">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode104/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode100/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode572/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode450/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinSearchTree/BinSearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="163" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="598" column="21" lean-forward="true" selection-start-line="598" selection-start-column="21" selection-end-line="598" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BinSearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/Readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="101" lean-forward="true" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#1083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Stack/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3971">
-          <caret line="251" column="24" selection-start-line="251" selection-start-column="24" selection-end-line="251" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5418#5419#0" expanded="true" />
-            <element signature="e#5454#5455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Stack/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2451">
-          <caret line="129" column="21" lean-forward="true" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5418#5419#0" expanded="true" />
-            <element signature="e#5454#5455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5418#5419#0" expanded="true" />
-            <element signature="e#5454#5455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReviewDS.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="652" selection-start-line="652" selection-end-line="652" />
+        <state relative-caret-position="27">
+          <caret line="256" column="38" selection-start-line="256" selection-start-column="38" selection-end-line="256" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/MyStack.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="94">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Stack/StackTest.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="76">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/LinkedStack.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/Result.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="436" selection-start-line="436" selection-end-line="436" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="565" selection-start-line="565" selection-end-line="565" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/notification/Failure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Queue/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="3209" selection-start-line="3209" selection-end-line="3209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/HeapTest/heapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="579" selection-start-line="579" selection-end-line="579" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Heap/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/Heap/PriorityQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode155/MinStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/ArrayStack1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode155/MinStack1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/FunctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="239" column="36" lean-forward="true" selection-start-line="239" selection-start-column="36" selection-end-line="239" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5418#5419#0" expanded="true" />
-            <element signature="e#5454#5455#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="6723">
+          <caret line="287" column="1" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/Impl/Readme">
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/Heap/LeetCode347/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="101" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
+        <state relative-caret-position="297">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Heap/LeetCode347/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="339" column="11" selection-start-line="339" selection-start-column="11" selection-end-line="339" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Stack/LeetCode20/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="297">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode20/Solution2.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/LeetCode110/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode110/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="56" column="69" selection-start-line="55" selection-start-column="9" selection-end-line="56" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode102/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode101/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode236/Location.java" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/LeetCode236/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/BinSearchTree/BSTandBLL/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TheSortingReview/TheSortingReview.iml" />
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinSearchTree/BSTandBLL/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/LeetCode236/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LeetCode20/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Heap/heapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="183">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/Heap/heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="461" column="34" lean-forward="true" selection-start-line="461" selection-start-column="34" selection-end-line="461" selection-end-column="34" />
           <folding>
-            <element signature="e#0#1083#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6605#6606#0" expanded="true" />
+            <element signature="e#6641#6642#0" expanded="true" />
+            <element signature="e#6685#6686#0" expanded="true" />
+            <element signature="e#6721#6722#0" expanded="true" />
+            <element signature="e#6766#6767#0" expanded="true" />
+            <element signature="e#6804#6805#0" expanded="true" />
+            <element signature="e#6832#6833#0" expanded="true" />
+            <element signature="e#6859#6860#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BinaryTree/Heap/heapSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
