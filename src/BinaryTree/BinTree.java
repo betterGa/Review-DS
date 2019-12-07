@@ -4,10 +4,10 @@ public interface BinTree<E>{
 
 
 boolean contains(E e);
-E getNin();
+E getMin();
 E getMax();
-E removeMax();
-E removeMin();
+    E removeMax();
+    E removeMin();
 boolean remove(E e);
 int getSize();
 //遍历
