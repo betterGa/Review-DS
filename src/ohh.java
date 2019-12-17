@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public interface ohh
+{
 
-public interface ohh {
+
+
 }
