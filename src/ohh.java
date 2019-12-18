@@ -1,6 +1,1 @@
-public interface ohh
-{
-
-
-
-}
+publ
