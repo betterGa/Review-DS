@@ -1,7 +1,7 @@
 package BinaryTree.Heap;
 
 
-//堆排列
+//堆排序
 //跟着录屏敲的
 /*
 public class heapSort {
